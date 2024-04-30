@@ -1,0 +1,123 @@
+/* Estilos generales */
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+
+header{
+    background-color: #E8C57E;
+}
+
+header nav img{
+    width: 100px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 15px 20px;
+    align-items: center;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* Main */
+
+/* Sección banner */
+.banner{
+    height: 450px;
+    background-image: url(./../assets/cake-banner.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .text{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .text a{
+    text-decoration: none;
+    color: black;
+    background-color: #E8C57E;
+    border-radius: 15px;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.banner .text a img{
+    width: 18px;
+    padding-left: 5px;
+}
+
+/* Sección nosotros */
+
+.nosotros{
+    display: flex;
+    margin: 50px 40px;
+    justify-content: space-around;
+    column-gap: 30px;
+}
+
+.nosotros div{
+    width: 400px;
+}
+
+.nosotros div img{
+    width: 100%;
+    height: 100%;
+}
+
+.nosotros-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nosotros-text h2{
+    font-size: 40px;
+}
+
+.nosotros-text p{
+    font-size: 25px;
+}
+
+/* Footer */
+footer{
+    background-color: #E8C57E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+footer div img{
+    width: 30px;
+}
